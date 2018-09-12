@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E7C74ADD-800D-4209-890D-8E84FB889E9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ref", "ref", "{10356369-4E4C-4DA2-9197-903E985FE1DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guru", "..\guru\src\Guru\Guru.csproj", "{BBA84EDB-2CF7-487B-A968-EE28E1FF36D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitDiffer.App", "src\GitDiffer.App\GitDiffer.App.csproj", "{80B642CA-F842-499B-9192-B13AE2274F53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBA84EDB-2CF7-487B-A968-EE28E1FF36D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA84EDB-2CF7-487B-A968-EE28E1FF36D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA84EDB-2CF7-487B-A968-EE28E1FF36D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA84EDB-2CF7-487B-A968-EE28E1FF36D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80B642CA-F842-499B-9192-B13AE2274F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80B642CA-F842-499B-9192-B13AE2274F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80B642CA-F842-499B-9192-B13AE2274F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80B642CA-F842-499B-9192-B13AE2274F53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBA84EDB-2CF7-487B-A968-EE28E1FF36D3} = {10356369-4E4C-4DA2-9197-903E985FE1DA}
+		{80B642CA-F842-499B-9192-B13AE2274F53} = {E7C74ADD-800D-4209-890D-8E84FB889E9C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A337F22-DF69-42FE-8650-A1309B9CEBDD}
+	EndGlobalSection
+EndGlobal

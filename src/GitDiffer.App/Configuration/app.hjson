@@ -1,0 +1,14 @@
+﻿{
+  # Git命令路径
+  GitPath: git
+  # Git项目本地目录
+  LocalGitDirectory: "D:\\git\\guru"
+  # Git分支
+  BranchName: master
+  # 提交起始时间
+  StartTime: "2018-09-01"
+  # 对比工具路径
+  CompareTool: "D:\\Program Files\\Microsoft Visual Studio\\2017\\Community\\Common7\\IDE\\devenv.exe"
+  # 对比工具参数
+  CompareToolParams: "/Diff"
+}
